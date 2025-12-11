@@ -1,7 +1,6 @@
-// This file has intentional linting violations
-const unusedVariable = 42;
-console.log("This uses double quotes (violation)");
+// Fixed linting errors
+console.log('This uses single quotes (fixed)');
 function testFunction() {
-  let value = 10
-  return value
+  let value = 10;
+  return value;
 }
